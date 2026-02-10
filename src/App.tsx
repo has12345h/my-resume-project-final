@@ -21,6 +21,7 @@ import {
   Layout,
   Check
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 const templates = [
@@ -177,6 +178,7 @@ export default function App() {
           </div>
         </div>
       </main>
+      <Analytics />
     </div>
   );
 }
